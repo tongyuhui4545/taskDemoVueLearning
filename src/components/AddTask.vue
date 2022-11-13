@@ -22,7 +22,7 @@
   </form>
 </template>
 
- <script>
+<script>
 export default {
   data() {
     return {
@@ -39,9 +39,7 @@ export default {
         alert("Please add a task");
         return;
       }
-
       const newTask = {
-        id: Date.now(),
         title: this.title,
         person: this.person,
         reminder: this.reminder,
